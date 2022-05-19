@@ -453,7 +453,7 @@ class InventoryForm(FormBaseMixin, forms.ModelForm):
         model = Inventory
         fields = [
             'goods', 'client', 'state', 'location',
-            'expressnum', 'amount', 'serials'
+            'expressnum', 'amount', 'serials', 'tags'
         ]
 
 
