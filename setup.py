@@ -28,7 +28,7 @@ setup(
     license='Apache License 2.0',
     description='A data center inventory management software',
     long_description=README,
-    url='https://www.iloxp.com/',
+    url='https://www.idcops.cn/',
     author='Vivian Cheung',
     author_email='wenvki@gmail.com',
     install_requires=get_requirements(),

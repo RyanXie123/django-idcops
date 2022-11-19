@@ -42,7 +42,7 @@
       </a>
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          <li><a href="https://idcops.iloxp.com/static/docs/" target="_blank"><i class="fa fa-book"></i> 项目文档</a></li>
+          <li><a href="https://demo.idcops.cn/static/docs/" target="_blank"><i class="fa fa-book"></i> 项目文档</a></li>
           {% if demo %}
           <li><a href="https://gitee.com/wenvki/django-idcops" target="_blank">项目源码</a></li>
           {% endif %}
@@ -127,7 +127,7 @@
   <footer class="main-footer no-print">
     {% block mian-footer %}
     <div class="pull-right hidden-xs">{{request.user.onidc.duty}}电话: {{request.user.onidc.tel}}</div>
-    <strong>Copyright © 2016 - {%now 'Y'%}<a target="_blank" href="http://www.iloxp.com/"> idcops</a>.</strong> All rights reserved.
+    <strong>Copyright © 2016 - {%now 'Y'%}<a target="_blank" href="http://www.idcops.cn/"> idcops</a>.</strong> All rights reserved.
     {% endblock %}
   </footer>
 </div>

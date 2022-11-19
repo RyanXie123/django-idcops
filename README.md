@@ -7,13 +7,13 @@ idcops 通过“数据中心”来分类管理每个数据中心下面的资源�
 
 django-idcops 遵循 Apache License 2.0。
 
-官方文档：[https://idcops.iloxp.com/static/docs/](https://idcops.iloxp.com/static/docs/)
+官方文档：[https://demo.idcops.cn/static/docs/](https://demo.idcops.cn/static/docs/)
 
 GitHub: [https://github.com/Wenvki/django-idcops](https://github.com/Wenvki/django-idcops)
 
 ## 交流讨论
 
-[作者博客](https://www.iloxp.com)
+[作者博客](https://www.idcops.cn)
 
 QQ群：185964462
 [数据中心运维管理idcops](https://jq.qq.com/?_wv=1027&k=5SVIbPP)
@@ -22,7 +22,7 @@ QQ群：185964462
 
 ## 项目截图
 
-[演示地址](http://idcops.iloxp.com/)
+[演示地址](http://demo.idcops.cn/)
 
 关注公众号回复数字 **7** 获取体验账号
 
@@ -61,7 +61,7 @@ sh auto_install.sh
 
 一步一步手动安装，可以进一步理解Django运行部署
 
-[部署线上生产环境](https://www.iloxp.com/archive/2390/)
+[部署线上生产环境](https://www.idcops.cn/archive/2390/)
 
 #### 二、配置settings.py
 

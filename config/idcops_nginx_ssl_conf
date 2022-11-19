@@ -5,13 +5,13 @@
         rewrite ^(/.*)$ https://$host$1 permanent;
     }
 
-    if ( $host != 'idcops.iloxp.com' ) {
-        rewrite ^(.*)$ https://www.iloxp.com$1 permanent;
+    if ( $host != 'demo.idcops.cn' ) {
+        rewrite ^(.*)$ https://www.idcops.cn$1 permanent;
     }
     #HTTP_TO_HTTPS_END
 
-    ssl_certificate /etc/nginx/cert/idcops.iloxp.com/idcops.iloxp.com_chain.crt; # managed by Certbot
-    ssl_certificate_key /etc/nginx/cert/idcops.iloxp.com/idcops.iloxp.com_key.key; # managed by Certbot
+    ssl_certificate /etc/nginx/cert/demo.idcops.cn/idcops.iloxp.com_chain.crt; # managed by Certbot
+    ssl_certificate_key /etc/nginx/cert/demo.idcops.cn/idcops.iloxp.com_key.key; # managed by Certbot
     ssl_session_cache shared:SSL:10m;
     ssl_session_timeout 10m;
     ssl_protocols TLSv1 TLSv1.1 TLSv1.2;

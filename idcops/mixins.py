@@ -79,7 +79,7 @@ class BaseRequiredMixin(LoginRequiredMixin):
                 messages.info(
                     request,
                     """管理系统使用PC浏览器访问体验更佳，当前为测试用户，已为您自动登录。"""
-                    """ 登录地址：https://idcops.iloxp.com/accounts/login/ 账户： admin 密码： admin.123"""
+                    """ 登录地址：https://demo.idcops.cn/accounts/login/ 账户： admin 密码： admin.123"""
                 )
                 login(request, user)
         if not request.user.is_authenticated:
